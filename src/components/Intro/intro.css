@@ -1,0 +1,43 @@
+#intro {
+    height: calc(100vh - 2rem);
+    width: 100vw;
+    max-width: 75rem; /*basically how much of the horizontal screen is used to display the text*/
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 70vh;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: rgb(174, 237, 190);
+}
+
+.introPara{
+    font-size: 1rem;
+    font-weight: 300;
+}
+

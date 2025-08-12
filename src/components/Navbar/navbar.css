@@ -1,0 +1,48 @@
+.navbar{
+    background: rgb(30,30,30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem; /*lowers max width of navbar, doesnt span entire horizontal length of window */
+    margin: 0 auto;
+    padding: 1rem 2rem;  /*1 rem padding for top and bottom, 2 rem for left and right */
+    display: flex; /*turns children into flex items and lets us use align items and justify content*/
+    /*not block item anymore, now a horizontal row*/
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.desktopMenu{
+    display: flex;
+    gap: 8rem; /* spacing between the nav links */
+}
+    
+.logo{
+    object-fit: cover; /*prevents image from stretching, maintains ratio of h/w*/
+    height: 3rem;
+    width: 4rem;
+    border-radius: 50%;
+
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover { 
+    color: rgb(124, 185, 153);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(124, 185, 153);
+}
+    
+.desktopMenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+    
+}
+

@@ -1,0 +1,17 @@
+*{ 
+    margin: 0; /*removes default margins like body, h1, <p>*/
+    padding: 0; /*removes default padding, all elements are flush when added*/
+    box-sizing: border-box; /*this block is a css reset, providing a clean slate to work on*/
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: rgb(30, 30, 30);
+    color: white; /*default text color of the page will now be white*/
+    overflow: hidden; /*prevents horizontal and vertical scrollbars*/
+    overflow-y: scroll;
+
+}
