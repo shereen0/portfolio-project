@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <section id='experience'>
         <span className="experienceTitle">My Experience</span>
-        <span className="moreInfo">I have been able to develop strong communication and teamwork skills from my experiences below. </span>
+        <span className="moreInfo">I have been able to develop strong communication and teamwork skills from my extracurricular experiences below. </span>
         <div className="experiencesBars">
             
             <div className="experiencesBar">

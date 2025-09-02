@@ -12,17 +12,17 @@ const Navbar = () => {
       <img src={logo} alt="Logo" className='logo' />
       <div className="desktopMenu">
         <Link
-          to="home"  // Matches id="home" in Intro
+          to="home"  
           smooth={true}
           duration={500}
-          offset={-80} // so it doesn't hide under navbar
+          offset={-80} 
           className="desktopMenuListItem"
         >
           Home
         </Link>
 
         <Link
-          to="projects" // Matches id="projects" in Projects.js
+          to="projects" 
           smooth={true}
           duration={500}
           offset={-80}
@@ -32,7 +32,7 @@ const Navbar = () => {
         </Link>
 
         <Link
-          to="experience" // Matches id="experience" in Experience.js
+          to="experience" 
           smooth={true}
           duration={500}
           offset={-80}
