@@ -25,7 +25,7 @@ const Experience = () => {
                 <img src={Hackathon} alt="Hackathon" className="projectBarImg" />
                 <div className="skillText">
                     <h2>Women in Stem Hackathon, 1st Place</h2>
-                    <p>Designed and showcased innovative workshops to increase interest in tech from women. Workshops included robot dance competitions and arduino art installations.</p>
+                    <p>Designed and showcased innovative workshops to increase interest in tech for women. Workshops included robot dance competitions and arduino art installations.</p>
                 </div>
 
             </div>

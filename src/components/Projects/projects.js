@@ -16,7 +16,7 @@ const Projects = () => {
                 <img src={GamifiedCoursesWebsite} alt="GamifiedCoursesWebsite" className="projectBarImg" />
                 <div className="skillBarText">
                     <h2>Interactive learning platform</h2>
-                    <p>Incorporated gamification elements to encourage users  to use online courses. Built collaboratively using Scrum and Git for version control.</p>
+                    <p>University group project using agile development, following Scrum principles. Incorporated gamification elements to encourage users  to use online courses.</p>
                 </div>
 
             </div>
