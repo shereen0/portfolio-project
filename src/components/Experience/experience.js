@@ -9,14 +9,14 @@ const Experience = () => {
   return (
     <section id='experience'>
         <span className="experienceTitle">My Experience</span>
-        <span className="moreInfo">I have been able to develop strong communication and teamwork skills from my extracurricular experiences below. </span>
+        <span className="moreInfo">I have developed strong communication and teamwork skills from my extracurricular experiences below. </span>
         <div className="experiencesBars">
             
             <div className="experiencesBar">
                 <img src={Med} alt="Med" className="projectBarImg" />
                 <div className="skillText">
                     <h2>MedTech Society</h2>
-                    <p>Developed technical solutions to major issues within the NHS. Presented complex software concepts to medical and non-technical professionals.</p>
+                    <p>Created a medication price comparison app for GP surgeries. Presented complex software concepts to medical and non-technical professionals.</p>
                 </div>
 
             </div>
@@ -25,7 +25,7 @@ const Experience = () => {
                 <img src={Hackathon} alt="Hackathon" className="projectBarImg" />
                 <div className="skillText">
                     <h2>Women in Stem Hackathon, 1st Place</h2>
-                    <p>Created and showcased innovative methods to solve gender disparity in technology.</p>
+                    <p>Designed and showcased innovative workshops to increase interest in tech from women. Workshops included robot dance competitions and arduino art installations.</p>
                 </div>
 
             </div>
@@ -34,7 +34,7 @@ const Experience = () => {
                 <img src={Maths} alt="Maths" className="projectBarImg" />
                 <div className="skillText">
                     <h2>Mathematics Tutor</h2>
-                    <p>Fine-tuned my communication skills with varied age groups over the past 5 years.</p>
+                    <p>Fine-tuned my communication skills with varied age groups.</p>
                 </div>
 
             </div>
